@@ -1,0 +1,6 @@
+#(Contador de Palavras Únicas) Peça ao usuário uma frase e, em seguida, conte quantas palavras únicas ela possui (sem considerar maiúsculas e minúsculas)
+print(f"***CONTADOR DE PALAVRAS ÚNICAS!***")
+frase = input("Digite uma frase: ")
+palavras = frase.lower().split()
+unicas = set(palavras)
+print("Número de palavras únicas:", len(unicas))
