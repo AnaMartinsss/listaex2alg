@@ -6,4 +6,5 @@ def remover_duplicados(lista_aninhada):
 
 lista_aninhada = [[1, 2, 2, 3], [4, 4, 5, 5], [6, 7, 6, 8]]
 resultado = remover_duplicados(lista_aninhada)
-print(resultado)
+print(resultado) 
+

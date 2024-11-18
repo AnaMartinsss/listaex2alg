@@ -16,4 +16,4 @@ for _ in range(quantidade):
 
 pares = filtrar_num_pares(numeros)
 
-print("Números pares:{pares}")
+print(f"Números pares:{pares}") 
